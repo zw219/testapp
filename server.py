@@ -1,5 +1,5 @@
 # Test line
 from waitress import serve
-from wireframe import app
+from testapp import app
 
 serve(app.server, host='localhost', port=3000)
