@@ -16,9 +16,9 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 # This call to setup() does all the work
 setup(
-    name="test-app",
+    name="testapp",
     version="0.1.1",
-    description="Basic Dash Wireframe",
+    description="basic test app",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://testapp.readthedocs.io/",
@@ -33,7 +33,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=["test-app"],
+    packages=["testapp"],
     include_package_data=True,
     install_requires=["numpy", "pandas", "dash", "waitress"]
 )
