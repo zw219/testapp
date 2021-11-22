@@ -1,2 +1,2 @@
 # testapp
-fo testin
+fo testing
