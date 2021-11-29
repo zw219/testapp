@@ -11,7 +11,7 @@ cwd = os.getcwd()
 cwd = "Current working directory: {0}".format(cwd)
 
 app = dash.Dash(__name__)
-app.layout = html.Div([html.P(cwd)])
+app.layout = html.Div([html.P(cwd), html.Img(src="assets/richZhangs_banner.png")])
 
 if __name__ == '__main__':
     app.run_server(debug=True)
