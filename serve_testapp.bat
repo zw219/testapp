@@ -1,3 +1,2 @@
-echo waudp
-:: gh auth status
-:: venv\Scripts\python.exe server.py
+git reset --hard origin/main
+venv\Scripts\python.exe server.py
