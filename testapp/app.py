@@ -8,10 +8,10 @@ import os
 cwd = os.getcwd()
 
 # Print the current working directory
-print("Current working directory: {0}".format(cwd))
+cwd = "Current working directory: {0}".format(cwd)
 
 app = dash.Dash(__name__)
-app.layout = html.Div([html.Img(src='assets/rolling_out_loud_banner.png')])
+app.layout = html.Div([html.P(cwd)])
 
 if __name__ == '__main__':
     app.run_server(debug=True)
