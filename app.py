@@ -1,7 +1,7 @@
-import dash
-from github_info_header import github_info_header, html
+from dash import *
+from testapp import *
 
-app = dash.Dash(__name__)
+app = Dash(__name__)
 app.layout = html.Div([
     github_info_header(),
     html.Img(src="assets/tvol_banner.png")
